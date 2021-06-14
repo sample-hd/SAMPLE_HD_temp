@@ -2,7 +2,7 @@
 
 This is a repostiory containing a code for *SAMPLE-HD: Simultaneous Action and Motion Planning Learning Environment* submitted to NeurIPS 2021 conference.
 
-Please treat the code as the experimental version.
+Please treat the code as the experimental version, in case of anything being unclear in use, please raise issue.
 
 ## Unity Environment
  The environment was prepared in the following setup:
