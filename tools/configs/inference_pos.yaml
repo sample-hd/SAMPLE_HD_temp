@@ -1,0 +1,12 @@
+MODEL:
+  IMG_ENCODER:
+    FREEZE: False
+    PRETRAINED: False
+  MODEL: 'PositionPred'
+  LOSS:
+    NAME: 'L2'
+  MODE: 'test'
+CONFIG:
+  CHECKPOINT_PATH: '/home/michas/Desktop/codes/nips2021/outputs/pos_pred_220521_152034/chekpoint_best.pt'
+LOGGING:
+  LOGDIR: '../outputs/pos_pred_inf'

@@ -1,0 +1,22 @@
+DATASET:
+  DATASET: 'SAMPLE_HD_Annotations'
+  ANNOTATIONS_TRAIN: '/home/michas/Desktop/SAMPLE_HD/annotations_train.json'
+  ANNOTATIONS_TEST: '/home/michas/Desktop/SAMPLE_HD/annotations_test.json'
+DEBUG:
+  VAL_SPLIT: 'test'
+MODEL:
+  IMG_ENCODER:
+    FREEZE: False
+    PRETRAINED: True
+  MODEL: 'Annotation'
+  LOSS:
+    NAME: 'AnnL1'
+CONFIG:
+  BATCH: 24
+  BATCH_VAL: 24
+  CHECKPOINT: 500
+  EPOCHS: 500
+  NUM_WORKERS: 12
+LOGGING:
+  LOGDIR: '../outputs/annotations'
+  DEBUG_MSG: 200

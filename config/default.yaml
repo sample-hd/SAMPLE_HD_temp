@@ -1,0 +1,26 @@
+# Default config for the model (does not need to be used as these options are loaded by default but provides quick overview for all options)
+
+# Path and vocab path are not specified and are loaded from paths catalogue
+# DATASET:
+#   DATASET: 'CLEVR'
+#   PATH: ''
+#   VOCAB_PATH: ''
+#   QUESTION_TYPE: 'V'
+
+# SCENE_PARSER:
+#   MODEL: 'MH'
+#   SCENE_REPRESENTATION: 'GT'
+
+# QUESTION_PARSER:
+#   OBJECT_CONCEPT_EMBEDDING: 256
+
+# EXECUTOR:
+#   INTENSIFIER: True
+#   ALPHA: 10
+#   SHIFT: 0.5
+#   SCALE: 0.1
+#   THRESHOLD: 0.7
+#   FILETRING:
+#     DIM: 128
+#     OUT_DIM: 64
+#     TRANSFORM_2D: 'linear_x1'
