@@ -39,6 +39,40 @@ In `tools/exec.py` a setup for executor is presented with the result showing cor
 For the inference with Unity, compile the program under your system and provide its path in scripts. We use `tools/inference_batch_nomod_save.py` and `tools/inference_batch_nomod_ann_save.py` for the inference with ground truth and predicted annotations.
 
 ## Dataset
-Please download dataset from:
+Please download dataset from the following:
+- [Scenes, segmentations, depth maps, instructions](https://imperialcollegelondon.box.com/s/5ia1o1bewwikvvmf6hrlwkrxohlm0cfg)
+- Sequences (images + data):
+	- [0-749](https://imperialcollegelondon.box.com/s/vete1bwpxkbvtjj1x2hrqbh0u38px4xd)
+	- [750-1499](https://imperialcollegelondon.box.com/s/ocf1o1xukyqgqsprssyub5d0zn5vn74v)
+	- [1500-2249](https://imperialcollegelondon.box.com/s/fa8pw88npsc135xzvkodt7tk45wfctyu)
+	- [2250-2999](https://imperialcollegelondon.box.com/s/ft02zahp08fhax1f95as2bru3lyef2r5)
+	- [3000-3749](https://imperialcollegelondon.box.com/s/zygcp2je6n8ztf7ja5qj08totbdf27qr)
+	- [3750-4499](https://imperialcollegelondon.box.com/s/ymgze1apq66d1mvtpzym849nxz3hnfiz)
+	- [4500-5249](https://imperialcollegelondon.box.com/s/2an51d2krkz0l9myj506zd1cdft0e0ji)
+	- [5250-5999](https://imperialcollegelondon.box.com/s/v13rjh1x072fd09wofvmg7a0oc2faegt)
+	- [6000-6749](https://imperialcollegelondon.box.com/s/ftd40jvpe93puiibaec8vgp687rwt6vv)
+	- [6750-7499](https://imperialcollegelondon.box.com/s/wia667xxs7kyhfsn7zuercxosn481xy8)
+	- [7500-8249](https://imperialcollegelondon.box.com/s/8q1xzgdtnhzahoxyp6ui18kxr3gc0gpi)
+	- [8250-8359](https://imperialcollegelondon.box.com/s/xcdfc8xhczphy0a9dksmhe50aehkdqbf)
+- Sequences (depth):
+	- [0-999](s)
+	- [1000-1999](s)
+	- [2000-2999](s)
+	- [3000-3999](s)
+	- [4000-4999](s)
+	- [5000-5999](s)
+	- [6000-6999](s)
+	- [7000-7999](s)
+	- [8000-8359](https://imperialcollegelondon.box.com/s/we4sirabo3tta2477y1joofj77wd8jft)
+- Sequences (segmentation):
+	- [0-999](s)
+	- [1000-1999](s)
+	- [2000-2999](s)
+	- [3000-3999](s)
+	- [4000-4999](s)
+	- [5000-5999](s)
+	- [6000-6999](s)
+	- [7000-7999](s)
+	- [8000-8359](s)
 
 Note that the form of dataset will be altered to reduce the number of preprocessing steps for various methods.
